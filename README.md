@@ -46,11 +46,11 @@ Glad to see you again!
 
 It’s been one month since the coding period for GSoC 2019 started, so it’s time to show the world the progress I made. First things first, the hardware came with linux kernel version 4.9 installed, which was not the latest version, so, too old to start to work on the driver. Therefore, the first thing to be done was to boot linux-next kernel on it. Challenge: find a way to do it, since the board had no SD card slot attached and I was not brave enough to overwrite something that boots, risking to end up with nothing functional. So, what I chose to do was to compile kernel Image locally on my machine (x86 architecture) for imx8-mm-pico-pi (arm64 architecture) in FIT format, load it in board's RAM memory, then boot it from there.
 
-![loadimage](https://github.com/andramaria1997/gsoc/blob/master/screenshots/loadimage.png)
+![loadimage](https://github.com/andramaria1997/gsoc/blob/master/images/loadimage.png)
 
 Aaand success! :D
 
-![firstboot](https://github.com/andramaria1997/gsoc/blob/master/screenshots/firstboot.png)
+![firstboot](https://github.com/andramaria1997/gsoc/blob/master/images/firstboot.png)
 
 I wrote a small tutorial on [`how to boot linux-next on imx8-mm-pico`](https://github.com/andramaria1997/gsoc/blob/secondarybranch/boot-linux-next.md) the way I did.
 
