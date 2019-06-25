@@ -91,8 +91,9 @@ Aaand success! :D
 
 ![firstboot](https://github.com/andramaria1997/gsoc/blob/master/images/firstboot.png)
 
-I wrote a small tutorial on [`how to boot linux-next on
-imx8-mm-pico`](https://github.com/andramaria1997/gsoc/blob/secondarybranch/boot-linux-next.md) the way I did.
+I wrote a small tutorial on [`how to boot linux-next on 
+imx8-mm-pico`](https://github.com/andramaria1997/gsoc/blob/master/boot-linux-next.md)
+the way I did.
 
 Ethernet and USB are functional. From now, I guess I can start working on the
 driver.
