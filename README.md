@@ -67,7 +67,7 @@ See you next time! 😀
 
 --------------------------------------------------------------------------------
 
-# Basic booting of IMX8-MM-PICO
+# Basic booting of IMX8MQ-PICO-PI
 
 Hello, World!
 
@@ -96,3 +96,20 @@ the way I did.
 
 Ethernet and USB are functional. From now, I guess I can start working on the
 driver.
+
+--------------------------------------------------------------------------------
+
+# Booting support is now upstream!
+
+Hello, World!
+
+What's new? Well, I managed to boot linux-next on the board without compiling
+FIT image, load it on the board through Ethernet and then boot it. I used uuu
+tool to boot through serial mode using .dtb file and kernel Image. I updated
+the tutorial on how to boot linux-next on imx8mq-pico-pi accordingly.
+
+What is more, imx8mq-pico-pi.dts file which offers support for booting
+linux-next on the board, is now applied into kernel! The two patches are found here: [`.dts file`](https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git/commit/?h=for-next&id=356c27227b3b6aa824dcf11ffe632095e3cffe8a) and [`documentation`](https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git/commit/?h=for-next&id=1a47dc0240bf177878251fae10aabccbaa5a4f20).
+
+
+
