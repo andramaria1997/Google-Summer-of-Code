@@ -9,7 +9,7 @@ Development board: PICO-PI-IMX8M
 
 --------------------------------------------------------------------------------
 
-# The journey begins
+# The Sound of Code - the journey begins
 
 Hello, World!
 
