@@ -106,10 +106,13 @@ Hello, World!
 What's new? Well, I managed to boot linux-next on the board without compiling
 FIT image, load it on the board through Ethernet and then boot it. I used uuu
 tool to boot through serial mode using .dtb file and kernel Image. I updated
-the tutorial on how to boot linux-next on imx8mq-pico-pi accordingly.
+the tutorial on how to boot linux-next on imx8mq-pico-pi (mentioned in the
+previous post) accordingly.
 
 What is more, imx8mq-pico-pi.dts file which offers support for booting
 linux-next on the board, is now applied into kernel! The two patches are found here: [`.dts file`](https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git/commit/?h=for-next&id=356c27227b3b6aa824dcf11ffe632095e3cffe8a) and [`documentation`](https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux.git/commit/?h=for-next&id=1a47dc0240bf177878251fae10aabccbaa5a4f20).
+Upstreaming process is difficult, but realisable and worth it. I will come back
+soon with updates regarding the progress on working at the driver. :)
 
 
 
