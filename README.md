@@ -115,5 +115,31 @@ linux-next on the board, is now applied into kernel! The two patches are found h
 Upstreaming process is difficult, but realisable and worth it. I will come back
 soon with updates regarding the progress on working at the driver. :)
 
+--------------------------------------------------------------------------------
 
+# Uda1334 codec driver is now available
 
+Hello, World!
+
+As I promised, I came back with updates regarding the driver. I know it took
+a long time to get back to you, but to make up for it the news are better than
+expected: it is done!
+
+I started from [`wm8524`](https://statics.cirrus.com/pubs/proDatasheet/WM8524_v4.1.pdf) audio codec because it is extremely similar with [`uda1334`](https://www.nxp.com/docs/en/data-sheet/UDA1334ATS.pdf)
+and it is already upstreamed. From this point, I slowly started to compare the
+two mentioned codecs and find differences between functionalities using their
+datasheets. Step by step, now the sound of code is on. You can find the patches
+[`here`](https://lkml.org/lkml/2019/7/31/381).
+
+What was difficult: testing De-emphasis property. De-emphasis is a sound property
+that is supposed to attenuate noise from sounds that fit into a given range of
+frequencies. Some of my colleagues and I could hear it, but others not, so we
+had a funny time trying to figure out if it is effective or not.
+
+I attached to this repo imx8mq-pico-pi.dts file having an example of what nodes
+are necesarry and how to configure them so as uda1334 codec driver would probe.
+I hope it is useful :)
+
+What is left, well, waiting for final review and results.
+
+Until next time!
