@@ -49,8 +49,7 @@ obviously, take a look at some tutorials. At my university, Operating Systems
 course is split into two main courses, the first one on user space programming
 and the second one on kernel space programming. So, I chose to solve a part of
 the latter course’s
-[`laboratories`](https://linux-kernel-labs.github.io/master/labs/introduction.ht
-ml). What is more, I slowly started to read [`Linux Device Drivers – Where
+[`laboratories`](https://linux-kernel-labs.github.io/master/labs/introduction.html). What is more, I slowly started to read [`Linux Device Drivers – Where
 kernel meets the driver`](https://www.oreilly.com/openbook/linuxdrive3/book/).
 
 I learned to work with kernel structures, to write and compile modules and how
