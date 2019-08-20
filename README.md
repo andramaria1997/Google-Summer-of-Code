@@ -84,11 +84,11 @@ chose to do was to compile kernel Image locally on my machine(x86 architecture)
 for imx8-mm-pico-pi (arm64 architecture) in FIT format, load it in board's RAM
 memory, then boot it from there.
 
-![images/loadimage.png](https://github.com/andramaria1997/gsoc/blob/master/images/loadimage.png/)
+![images/loadimage.png](https://github.com/andramaria1997/gsoc/blob/master/images/loadimage.png/)  
 
 Aaand success! :D
 
-![images/firstboot.png](https://github.com/andramaria1997/gsoc/blob/master/images/firstboot.png/)
+![images/firstboot.png](https://github.com/andramaria1997/gsoc/blob/master/images/firstboot.png/)  
 
 I wrote a small tutorial on [`how to boot linux-next on 
 imx8-mm-pico`](https://github.com/andramaria1997/gsoc/blob/master/boot-linux-next.md)
