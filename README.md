@@ -143,3 +143,37 @@ I hope it is useful :)
 What is left, well, waiting for final review and results.
 
 Until next time!
+
+--------------------------------------------------------------------------------
+
+# It was fun
+
+Hello, World!
+
+Google Summer of Code experience has come to an end. I had a great summer.
+I strongly recomend gsoc program to any other student that wants a summer full
+of coding and traveling at the same time, and also learn a lot of things from
+Open Source Community. Eventually, continue to be a part of it! :)
+
+What I learned? How to build linux kernel Image, about the kernel API, how to
+write a device driver and how that can be embedded or configured as a loadable
+module, how device tree source is used in probing necessary modules, booting
+methods (FIT format using mkimage and boot the whole rootfs through serial mode
+using a tftp server and uuu tool), advanced git experience, linux kernel
+upstreaming process and last but not least, a little bit of sound processing.
+
+I had great mentoring and I want to thank Daniel Baluta for this. I had a lot
+to learn from him, the work with him doesn't feel stressful and any other
+student that had or will have him as a mentor is very lucky. I am proud to be
+one of them :D
+
+The project is successful. All the patches are applied into asoc tree.  
+Booting support:  
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=d6de65fde51644f6ed6b1c0c05fef6a2da5ff768  
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=1a47dc0240bf177878251fae10aabccbaa5a4f20
+
+And the driver:  
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=356c27227b3b6aa824dcf11ffe632095e3cffe8a  
+https://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git/commit/?id=caa918ef14065b812737f3ee4ac349dcfff196e6
+
+Thank you for following me until the end. :)
