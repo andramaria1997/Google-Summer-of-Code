@@ -58,8 +58,8 @@ After compiling, you can obtain kernel.itb using mkimage as mentioned before.
 
 Now, having kernel.itb file, we can boot linux-next on the board. Steps:
 
-1. Create on local machine a tftp directory and put kernel.itb file there
-(!) tftp directory has to be exported in order to be visible on the board
+1. Create on local machine a tftp directory and put kernel.itb file there  
+(!) tftp directory has to be exported in order to be visible on the board  
 [`Steps to setup a tftp server for booting kernel image`](https://wiki.commotionwireless.net/doku.php/development_resources/router/tftp_bootp_server_setup)
 2. Connect the board and stop it in u-boot mode
 3. FIT image will boot from "fit_addr" environment variable. So, load kernel.itb
